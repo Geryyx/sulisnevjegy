@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.imgur.com/pSIpxNx.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.profile-card{
+    background-color: hsla(0, 0%, 50%, .4);
+    width: 480px;
+    max-width: calc(100vw - 10px);
+    border-radius: 4px;
+    box-shadow: hsla(0,0%,0%, .8) 10px 10px 80px;
+}
+.profile-image{
+    background-color:  hsla(0, 0%, 40%, .4);
+    margin-top: -60px;
+}
+.head{
+    background-color:  hsla(0, 0%, 20%, .4);
+}
+.content{
+    background-color:  hsla(0, 0%, 20%, .4);
+    padding: 5% 10%;
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+.name-headline{
+    background-color:  hsla(0, 0%, 20%, .4);
+}
+.about{
+    background-color:  hsla(0, 0%, 50%, .4);
+}
+.links{
+    background-color: hsla(0, 0%, 50%, .4);
+}
+.head, .links{
+    text-align: center;
+}
+.head, .content{
+    width: 90%;
+    margin: 0 auto;
+}
+.head, .about{
+    margin-bottom: 10%;
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: grey;
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(50%);
+}
+img:hover{
+    transform: scale(1.1);
+    filter: grayscale(20%);
+}
+ul{
+    list-style-type: none;
+  }
+  
+li{
+    display: inline;
+  }
